@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ODSK00238061</string>
+    <string name="API_KEY">api_key</string>
+    <string name="BASE_URL">https://api.barcodelookup.com/v3/products?barcode=</string>
+</resources>

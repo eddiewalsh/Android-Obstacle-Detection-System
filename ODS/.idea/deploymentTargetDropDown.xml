@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetDropDown">
+    <value>
+      <entry key="SetUpBarcodeScannerTest()">
+        <State />
+      </entry>
+      <entry key="SetUpTextRecognizerTest()">
+        <State />
+      </entry>
+      <entry key="SpeakerTests">
+        <State />
+      </entry>
+      <entry key="app">
+        <State>
+          <runningDeviceTargetSelectedWithDropDown>
+            <Target>
+              <type value="RUNNING_DEVICE_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="SERIAL_NUMBER" />
+                  <value value="adb-SGV4JRGYF6TCXOHA-oxtUce._adb-tls-connect._tcp" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </runningDeviceTargetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-04-30T11:02:58.455918200Z" />
+        </State>
+      </entry>
+      <entry key="testProcessDetectedObject()">
+        <State />
+      </entry>
+    </value>
+  </component>
+</project>

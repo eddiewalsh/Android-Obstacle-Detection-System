@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    tools:context=".ObjectDetectionActivity">
+
+    <androidx.camera.view.PreviewView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/cameraPreview" />
+
+    <com.example.odsk00238061.utils.RectangleOverlayView
+        android:id="@+id/rectangle_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="16dp">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom">
+
+            <!-- White circle background -->
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/circular_background" />
+
+
+            <ImageView
+                android:id="@+id/icon_circle"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/eye"
+                android:layout_gravity="center" />
+        </FrameLayout>
+    </FrameLayout>
+</RelativeLayout>
